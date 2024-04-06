@@ -1,3 +1,4 @@
+
 # AppBook - Flutter Reading App
 
 Welcome to the GitHub repository of **AppBook**, a Flutter project aimed at providing a seamless and intuitive book reading experience. This project is the collaborative effort of Vương Hỷ Khang and Lâm Tuấn Kiệt, with a focus on creating a robust and user-friendly mobile application.
@@ -24,4 +25,35 @@ To get started with **AppBook**, follow these simple steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/kanglee079/project-app-book-MTPTM-S2-20TH_N1_01/
+   git clone https://github.com/kanglee079/project-app-book-MTPTM-S2-20TH_N1_01
+   ```
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+3. Run the app:
+   ```bash
+   flutter run
+   ```
+
+## Resources
+
+For those new to Flutter or looking to advance their skills, here are some helpful resources:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter Online Documentation](https://docs.flutter.dev/)
+
+## Contributions
+
+We welcome contributions! If you have suggestions or want to contribute to the project, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Happy Reading!
+
+_Vương Hỷ Khang & Lâm Tuấn Kiệt_
