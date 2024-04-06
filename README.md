@@ -24,4 +24,4 @@ To get started with **AppBook**, follow these simple steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourgithubusername/app_book.git
+   git clone https://github.com/kanglee079/project-app-book-MTPTM-S2-20TH_N1_01/
