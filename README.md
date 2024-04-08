@@ -1,16 +1,28 @@
-# app_book
+# AppBook - Nhánh Của Vương Hỷ Khang
 
-A new Flutter project.
+Chào mừng bạn đến với nhánh của Vương Hỷ Khang! Trong nhánh này, tôi tập trung vào việc phát triển toàn bộ logic ứng dụng và tích hợp Firebase, mang đến một trải nghiệm người dùng mượt mà và hiệu quả.
 
-## Getting Started
+## Trách Nhiệm
 
-This project is a starting point for a Flutter application.
+- **Phát Triển Logic Ứng Dụng** 🔨: Xây dựng và tối ưu hóa logic nền tảng, đảm bảo ứng dụng hoạt động mạnh mẽ và ổn định.
+- **Tích Hợp Firebase** 🔥: Triển khai và quản lý dữ liệu thời gian thực, bao gồm tài khoản người dùng, bộ sưu tập sách, và nhiều hơn nữa.
 
-A few resources to get you started if this is your first Flutter project:
+## Bắt Đầu
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Để đóng góp cho nhánh này, hãy làm theo các bước sau:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Sao chép nhánh:
+   ```bash
+   git clone -b khang_branch https://github.com/kanglee079/project-app-book-MTPTM-S2-20TH_N1_01
+Cài đặt các gói phụ thuộc:
+bash
+Copy code
+flutter pub get
+Bắt đầu làm việc và tạo pull request để đóng góp.
+Liên Hệ
+
+Nếu có thắc mắc hoặc đề xuất, đừng ngần ngại liên hệ với tôi qua GitHub hoặc email.
+
+Chúc mọi người một ngày tốt lành và hạnh phúc trong khi đóng góp cho AppBook!
+
+Vương Hỷ Khang
