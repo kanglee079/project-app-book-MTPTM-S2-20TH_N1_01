@@ -45,9 +45,7 @@ Dành cho những ai mới làm quen với Flutter hoặc muốn nâng cao kỹ 
 
 ## Đóng Góp
 
-Ch
-
-úng tôi chào đón đóng góp! Nếu bạn có đề xuất hoặc muốn đóng góp cho dự án, đừng ngần ngại mở một issue hoặc gửi một pull request.
+Chúng tôi chào đón đóng góp! Nếu bạn có đề xuất hoặc muốn đóng góp cho dự án, đừng ngần ngại mở một issue hoặc gửi một pull request.
 
 ## Bản Quyền
 
