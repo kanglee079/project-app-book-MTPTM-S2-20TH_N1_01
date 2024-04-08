@@ -18,9 +18,9 @@ Cài đặt các gói phụ thuộc:
 flutter pub get
 Bắt đầu làm việc và tạo pull request để đóng góp.
 
-## Bắt Đầu
+## Liên Hệ
 
-Nếu có thắc mắc hoặc đề xuất, đừng ngần ngại liên hệ với tôi qua GitHub hoặc email.
+Nếu có thắc mắc hoặc đề xuất, đừng ngần ngại liên hệ với tôi qua GitHub @kanglee079 hoặc email hykhang792002@gmail.com.
 
 Chúc mọi người một ngày tốt lành và hạnh phúc trong khi đóng góp cho AppBook!
 
