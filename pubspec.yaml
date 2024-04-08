@@ -59,6 +59,8 @@ dependencies:
   carousel_slider: ^4.2.1
   flutter_downloader: ^1.11.6
   permission_handler: ^11.3.0
+  chat_gpt_sdk: ^2.2.5
+  dash_chat_2: ^0.0.19
 
 
 dev_dependencies:

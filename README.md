@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # AppBook - Flutter Reading App
 
