@@ -1,60 +1,60 @@
-<<<<<<< HEAD
+# AppBook - Ứng Dụng Đọc Sách Flutter
 
-# AppBook - Flutter Reading App
+Chào mừng bạn đến với kho lưu trữ GitHub của **AppBook**, một dự án Flutter nhằm cung cấp trải nghiệm đọc sách mượt mà và trực quan. Dự án này là sự hợp tác của Vương Hỷ Khang và Lâm Tuấn Kiệt, với mục tiêu tạo ra một ứng dụng di động thân thiện và mạnh mẽ với người dùng.
 
-Welcome to the GitHub repository of **AppBook**, a Flutter project aimed at providing a seamless and intuitive book reading experience. This project is the collaborative effort of Vương Hỷ Khang and Lâm Tuấn Kiệt, with a focus on creating a robust and user-friendly mobile application.
+## Thành Viên Nhóm
 
-## Team Members
+- **Vương Hỷ Khang** - Phụ trách toàn bộ logic của ứng dụng để kết nối với Firebase, đảm bảo trải nghiệm người dùng mượt mà.
+- **Lâm Tuấn Kiệt** - Phụ trách viết code giao diện ứng dụng, mang đến một giao diện đẹp mắt và dễ sử dụng.
 
-- **Vương Hỷ Khang** - Focused on User App functionalities and Firebase integration. Responsible for the overall logic and backend connection, ensuring a smooth user experience.
-- **Lâm Tuấn Kiệt** - Spearheaded the Admin App functionalities, enabling effective management and content curation.
+## Tổng Quan Dự Án
 
-## Project Overview
+**AppBook** được thiết kế để phục vụ những người yêu sách đang tìm kiếm một cách thuận tiện để truy cập và đọc những cuốn sách yêu thích mọi lúc mọi nơi. Với các tính năng được thiết kế nhằm nâng cao sự thoải mái và tiếp cận khi đọc, ứng dụng của chúng tôi hướng đến trở thành thư viện số mà bạn không thể bỏ qua.
 
-**AppBook** is designed to cater to book enthusiasts looking for a convenient way to access and read their favorite books on-the-go. With features crafted to enhance reading comfort and accessibility, our app aims to be your go-to digital library.
+### Tính Năng
 
-### Features
+- **Giao Diện Thân Thiện Với Người Dùng** 📚: Dễ dàng điều hướng và thiết kế sạch sẽ, mang đến niềm vui khi đọc sách.
+- **Tích Hợp Firebase** 🔥: Xử lý dữ liệu thời gian thực cho tài khoản người dùng, bộ sưu tập sách, và hơn thế nữa.
+- **Bảng Điều Khiển Quản Trị** 🛠️: Một module admin riêng biệt để quản lý sách, người dùng, và nội dung ứng dụng một cách hiệu quả.
+- **Đọc Sách Cá Nhân Hóa** 📖: Tùy chỉnh kích thước văn bản, font chữ, và màu nền phù hợp với sở thích đọc của bạn.
 
-- **User-Friendly Interface**: Easy navigation and a clean design make reading not just a hobby but a pleasure.
-- **Firebase Integration**: Real-time data handling for user accounts, book collections, and more.
-- **Admin Dashboard**: A separate admin module to manage books, users, and app content efficiently.
-- **Personalized Reading**: Customizable text size, fonts, and background colors to suit your reading preference.
+## Bắt Đầu
 
-## Getting Started
+Để bắt đầu với **AppBook**, làm theo các bước đơn giản sau:
 
-To get started with **AppBook**, follow these simple steps:
-
-1. Clone the repository:
+1. Sao chép kho lưu trữ:
    ```bash
    git clone https://github.com/kanglee079/project-app-book-MTPTM-S2-20TH_N1_01
    ```
-2. Install dependencies:
+2. Cài đặt các gói phụ thuộc:
    ```bash
    flutter pub get
    ```
-3. Run the app:
+3. Chạy ứng dụng:
    ```bash
    flutter run
    ```
 
-## Resources
+## Tài Nguyên
 
-For those new to Flutter or looking to advance their skills, here are some helpful resources:
+Dành cho những ai mới làm quen với Flutter hoặc muốn nâng cao kỹ năng của mình, đây là một số tài nguyên hữu ích:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-- [Flutter Online Documentation](https://docs.flutter.dev/)
+- [Lab: Viết ứng dụng Flutter đầu tiên của bạn](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Các ví dụ hữu ích về Flutter](https://docs.flutter.dev/cookbook)
+- [Tài Liệu Trực Tuyến Flutter](https://docs.flutter.dev/)
 
-## Contributions
+## Đóng Góp
 
-We welcome contributions! If you have suggestions or want to contribute to the project, feel free to open an issue or submit a pull request.
+Ch
 
-## License
+úng tôi chào đón đóng góp! Nếu bạn có đề xuất hoặc muốn đóng góp cho dự án, đừng ngần ngại mở một issue hoặc gửi một pull request.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Bản Quyền
+
+Dự án này được cấp phép theo Giấy phép MIT - xem file [LICENSE](LICENSE) để biết chi tiết.
 
 ---
 
-Happy Reading!
+Chúc Bạn Đọc Sách Vui Vẻ!
 
 _Vương Hỷ Khang & Lâm Tuấn Kiệt_
