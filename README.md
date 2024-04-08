@@ -1,4 +1,5 @@
-![image](https://github.com/kanglee079/project-app-book-MTPTM-S2-20TH_N1_01/assets/89653821/c57f38e3-14de-493e-8e91-549e68e07199)
+<img src="https://github.com/kanglee079/project-app-book-MTPTM-S2-20TH_N1_01/assets/89653821/c57f38e3-14de-493e-8e91-549e68e07199" width="100" height="auto">
+
 # AppBook - Ứng Dụng Đọc Sách Flutter 
 
 Chào mừng bạn đến với kho lưu trữ GitHub của **AppBook**, một dự án Flutter nhằm cung cấp trải nghiệm đọc sách mượt mà và trực quan. Dự án này là sự hợp tác của Vương Hỷ Khang và Lâm Tuấn Kiệt, với mục tiêu tạo ra một ứng dụng di động thân thiện và mạnh mẽ với người dùng.
