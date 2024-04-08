@@ -1,17 +1,42 @@
 import 'package:app_book/apps/helper/showToast.dart';
 import 'package:app_book/manage/controllers/category_controller.dart';
+import 'package:app_book/models/category_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../../widgets/custom_text_field.dart';
 
-class AddCategoryPage extends StatelessWidget {
-  const AddCategoryPage({super.key});
+class EditCategoryPage extends StatefulWidget {
+  const EditCategoryPage({
+    super.key,
+  });
+
+  @override
+  State<EditCategoryPage> createState() => _EditCategoryPageState();
+}
+
+class _EditCategoryPageState extends State<EditCategoryPage> {
+  String? categoryId = Get.arguments as String?;
+
+  final controllerCategory = Get.find<CategoryController>();
+
+  TextEditingController nameCategoryController = TextEditingController();
+
+  void getCategoryById() async {
+    Category categoryToEdit = controllerCategory.state.listCategory.firstWhere(
+      (category) => category.id == categoryId,
+    );
+    nameCategoryController.text = categoryToEdit.nameCategory ?? "";
+  }
+
+  @override
+  void initState() {
+    getCategoryById();
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
-    TextEditingController nameCategoryController = TextEditingController();
-    final categoryController = Get.find<CategoryController>();
     return GestureDetector(
       onTap: () {
         FocusScope.of(context).requestFocus(FocusNode());
@@ -20,7 +45,7 @@ class AddCategoryPage extends StatelessWidget {
         appBar: AppBar(
           centerTitle: true,
           title: Text(
-            "Thêm thể loại",
+            "Sửa thể loại",
             style: Theme.of(context).textTheme.bodyLarge,
             textAlign: TextAlign.center,
           ),
@@ -47,13 +72,20 @@ class AddCategoryPage extends StatelessWidget {
         ),
         bottomNavigationBar: InkWell(
           onTap: () {
-            if (nameCategoryController.text.isNotEmpty) {
-              categoryController.addCategory(nameCategoryController.text);
+            try {
+              controllerCategory.updateCategory(
+                  categoryId!,
+                  Category(
+                      id: categoryId,
+                      nameCategory: nameCategoryController.text));
+              showToastSuccess("Sửa thành công?");
+            } catch (e) {
+              showToastError("Sửa thất bại $e");
             }
-            nameCategoryController.clear();
-            showToastSuccess("Thêm thể loại thành công!");
           },
-          child: Ink(
+          child: Container(
+            width: double.infinity,
+            height: 60,
             decoration: const BoxDecoration(
               color: Colors.grey,
               borderRadius: BorderRadius.only(
@@ -61,14 +93,10 @@ class AddCategoryPage extends StatelessWidget {
                 topRight: Radius.circular(15),
               ),
             ),
-            child: SizedBox(
-              width: double.infinity,
-              height: 55,
-              child: Center(
-                child: Text(
-                  "Thêm thể loại",
-                  style: Theme.of(context).textTheme.bodySmall,
-                ),
+            child: Center(
+              child: Text(
+                "Sửa thể loại",
+                style: Theme.of(context).textTheme.bodySmall,
               ),
             ),
           ),
