@@ -15,11 +15,10 @@ Chào mừng bạn đến với nhánh của Vương Hỷ Khang! Trong nhánh n�
    ```bash
    git clone -b khang_branch https://github.com/kanglee079/project-app-book-MTPTM-S2-20TH_N1_01
 Cài đặt các gói phụ thuộc:
-bash
-Copy code
 flutter pub get
 Bắt đầu làm việc và tạo pull request để đóng góp.
-Liên Hệ
+
+## Bắt Đầu
 
 Nếu có thắc mắc hoặc đề xuất, đừng ngần ngại liên hệ với tôi qua GitHub hoặc email.
 
